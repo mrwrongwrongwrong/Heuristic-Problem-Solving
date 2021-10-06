@@ -1,3 +1,7 @@
+My code is located under the root clients/python/my_solutions.py and other py files under the same root.
+
+The following is the original content from the architecture team who holds the first game for the class:
+
 # Card Nim
 
 This contains a server using basic sockets and a series of simple clients to play card nim
