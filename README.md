@@ -2,7 +2,7 @@
 
 
 
-
+Studying notes from Oct 6th, 2021
 Under the category of two players game:
 A good strategy includes the aspect below:
 1. Safe strategy over risky&highly rewarded strategy
