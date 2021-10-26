@@ -1,0 +1,33 @@
+1.ModuleNotFoundError: No module named 'requests'. But 'requests' already installed
+
+Step1: try "brew install requests" and "pip3 install requests"
+https://stackoverflow.com/questions/54731479/modulenotfounderror-no-module-named-requests-but-requests-already-installe/54732792
+it is installed globally, but you might run your program in virtual environment, in this case it can't find 'requests' module
+
+If you are getting "ModuleNotFoundError: No module named 'requests'" error then it means either requests module is not installed or if it is installed then python is not able to find it.
+
+Another reason is that you have installed multiple versions of python on your PC:
+https://stackoverflow.com/questions/30535384/importerror-no-module-named-requests-after-installing-with-pip
+
+easy_install requests
+
+
+cd /usr/local/lib/python3.9/site-packages
+sudo pip3 uninstall requests
+sudo pip3 install requests
+https://stackoverflow.com/questions/68673221/warning-running-pip-as-the-root-user
+
+export PYTHONPATH="/the/path/you/want"
+export PYTHONPATH="/usr/local/lib/python3.9"
+
+
+THIS ONE WORKS!:
+export PATH="/Users/zhousq/Library/Python/3.9/lib/python/site-packages"
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+
+
+/Users/zhousq/Library/Python/3.9/lib/python/site-packages -m pip install requests
+
+export PATH="/usr/local/lib/python3.9/site-packages"
+
+JUST USE LINUX SYSTEM!
