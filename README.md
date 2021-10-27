@@ -16,3 +16,6 @@ When the search size gets manageble, when the brute force search is feasible, go
 In the vehicle routing problem,
 the simulated anealing search method has a better performance than ant strategy. The ant strategy has a better performance than pure greedy.
 https://www.cnblogs.com/heaad/archive/2010/12/20/1911614.html
+
+
+Books: Statistical Diseases by Kaufman
