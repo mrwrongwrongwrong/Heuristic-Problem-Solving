@@ -31,3 +31,17 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 export PATH="/usr/local/lib/python3.9/site-packages"
 
 JUST USE LINUX SYSTEM!
+
+Update:
+First, you have to know where your environment is located at, if you dont know, start a new virtual environment in Pycharm and record the location
+Then:
+export PATH="Your package location"
+e.g 
+export PATH="/Users/zhousq/Documents/Semesters/2021 Fall/heuristic problem solving/envir/lib/python3.9/site-packages"
+/Users/zhousq/Documents/Semesters/2021\ Fall/heuristic\ problem\ solving/envir/lib/python3.9/site-packages -m pip3 install hps
+
+Just open a terminal in the following repository:/Users/zhousq/Documents/Semesters/2021\ Fall/heuristic\ problem\ solving/envir/lib/python3.9/site-packages 
+and 
+pip3 install hps-nyu
+brew install hps
+
