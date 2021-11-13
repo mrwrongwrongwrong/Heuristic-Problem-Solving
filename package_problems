@@ -47,4 +47,4 @@ brew install hps
 
 ---hps
 https://pypi.org/project/hps-nyu/
-pip3 install hps-nyu
+pip3 install --user hps-nyu
