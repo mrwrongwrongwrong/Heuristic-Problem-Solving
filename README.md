@@ -19,3 +19,7 @@ https://www.cnblogs.com/heaad/archive/2010/12/20/1911614.html
 
 
 Books: Statistical Diseases by Kaufman
+
+HPS package is at:
+https://pypi.org/project/hps-nyu/
+
