@@ -48,3 +48,14 @@ brew install hps
 ---hps
 https://pypi.org/project/hps-nyu/
 pip3 install --user hps-nyu
+
+
+---Pip install on Mac OS gets error: command '/usr/bin/clang' failed with exit code 1
+https://stackoverflow.com/questions/64881510/pip-install-on-mac-os-gets-error-command-usr-bin-clang-failed-with-exit-code
+GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=true GRPC_PYTHON_BUILD_SYSTEM_ZLIB=true pip install google-cloud-pubsub==2.1.0
+
+pip install virtualenv
+virtualenv my-test-env
+source my-test-env/bin/activate
+my-test-env/bin/pip install google-cloud-pubsub==2.1.0
+
