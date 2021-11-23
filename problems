@@ -1,3 +1,12 @@
 https://stackoverflow.com/questions/31691626/cant-brew-install-node?rq=1
 
 yarn init -y
+
+
+yarn problem solution:
+(envir) MBPganghinanban:submarine-vis zhousq$ which python
+/Users/zhousq/Documents/Semesters/2021 Fall/heuristic problem solving/envir/bin/python
+(envir) MBPganghinanban:submarine-vis zhousq$ npm config set python /Users/zhousq/Documents/Semesters/2021 Fall/heuristic problem solving/envir/bin/python
+(envir) MBPganghinanban:submarine-vis zhousq$ export PYTHON="$/Users/zhousq/Documents/Semesters/2021 Fall/heuristic problem solving/envir/bin/python"
+
+https://stackoverflow.com/questions/66316099/error-node-modules-node-sass-command-failed-exit-code-1-command-node-scripts
