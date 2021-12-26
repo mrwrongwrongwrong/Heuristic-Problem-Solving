@@ -1,0 +1,11 @@
+
+Getting Started:
+https://github.com/pyjs/pyjs/wiki/GettingStarted
+
+Installation:
+pip install git+https://github.com/pyjs/pyjs.git#egg=pyjs
+
+
+pyjs:
+pyjsbuild <your_python_file>
+(by operating this step, it will transforming your python file into a folder of html files, inside of the folder output)
